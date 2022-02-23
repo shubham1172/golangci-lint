@@ -128,6 +128,7 @@ type LintersSettings struct {
 	Gofumpt          GofumptSettings
 	Goheader         GoHeaderSettings
 	Goimports        GoImportsSettings
+	Gokart           GokartSettings
 	Golint           GoLintSettings
 	Gomnd            GoMndSettings
 	GoModDirectives  GoModDirectivesSettings
@@ -315,6 +316,10 @@ type GoHeaderSettings struct {
 
 type GoImportsSettings struct {
 	LocalPrefixes string `mapstructure:"local-prefixes"`
+}
+
+type GokartSettings struct {
+	GlobalsTainted bool `mapstructure:"globals-tainted"`
 }
 
 type GoLintSettings struct {

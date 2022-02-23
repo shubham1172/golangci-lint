@@ -64,6 +64,7 @@ require (
 	github.com/nishanths/predeclared v0.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/polyfloyd/go-errorlint v0.0.0-20211125173453-6d6d39c5bb8b
+	github.com/praetorian-inc/gokart v0.4.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/quasilyte/go-ruleguard/dsl v0.3.17
 	github.com/ryancurrah/gomodguard v1.2.3
